@@ -11,7 +11,7 @@ Live at **https://djedyed.github.io/djedyedepk/** once GitHub Pages is switched 
   - **Third-party record**: confirmed by an outside source (a venue listing or a platform such as Serato)
   - **Artist-published**: from DJ Eddie Ed's own public profiles and flyers
 - Mixcloud players for six featured mixes
-- Client reviews, a tech rider, and a booking section with a Calendly link, a booking email (djedyed@gmail.com) and an inquiry form
+- Client reviews, a tech rider, and a booking section with a Calendly link, a booking email (djedyed@gmail.com), a booking phone (+1 347 377 2968) and an inquiry form
 
 ## How it works
 

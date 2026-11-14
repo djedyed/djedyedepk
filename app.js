@@ -84,6 +84,16 @@ function render(data) {
     }
   }
 
+  // booking phone (set in the back office); the page keeps its built-in number if none is set
+  const phone = String(p.booking_phone || '').trim();
+  const dial = phone.replace(/[^\d+]/g, '');
+  if (/^\+?\d{7,15}$/.test(dial)) {
+    for (const a of $$('[data-bind-tel]')) {
+      a.href = `tel:${dial}`;
+      a.textContent = `Call ${phone}`;
+    }
+  }
+
   // press photo (uploaded from the back office)
   const photo = p.hero_image_url && safeUrl(p.hero_image_url);
   $('.press-photo').hidden = !photo;
