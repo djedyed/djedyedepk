@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-14T02:05:48Z",
+  "generated_at": "2026-11-14T18:45:00Z",
   "profile": {
     "stage_name": "DJ Eddie Ed",
     "aka": "djedyed",
     "tagline": "The musical bridge between Southern Africa & the US.",
-    "short_bio": "DJ Eddie Ed (djedyed) is a New York–based DJ and music curator who has spent more than two decades connecting Southern African dance music with American crowds. A Botswana National DJ '98 mix show champion and an early champion of kwaito in the US, he has played Central Park SummerStage, NJPAC and, in 2023, the Apollo Theater in Harlem.",
-    "full_bio": "Eddie Ed grew up between Zimbabwe, Botswana and South Africa, and he brought those dancefloors with him to New York.\n\nHe won the Botswana National DJ '98 mix show championship, then held down the famous after-work party Naked Lunch “Share Libations” from 2000 to 2004. In 2001 he became the first kwaito-exclusive DJ to play Central Park SummerStage, and in 2002–03 he played NJPAC and the African Film Festival.\n\nHis sets run from kwaito, Afro house and amapiano through zimdancehall, ndombolo and Afrobeat, across deep and soulful house, soul and R&B, hip-hop, reggae and old-school classics.\n\nOn February 23, 2023 he DJ'd the South African cocktail reception at the Apollo Theater for ImageNation's Cocktails & Sol Cinema screening of Mbongeni Ngema's Asinamali, then played the official after party at Shrine World Music Venue in Harlem.",
+    "short_bio": "DJ Eddie Ed (djedyed) is a New York–based DJ and music curator who has spent more than two decades connecting Southern African dance music with American crowds. A Botswana National DJ '98 mix show champion and an early champion of kwaito in the US, he has played Central Park SummerStage, NJPAC, Marcus Garvey Park with Les Nubians and, in 2023, the Apollo Theater in Harlem.",
+    "full_bio": "Eddie Ed grew up between Zimbabwe, Botswana and South Africa, and he brought those dancefloors with him to New York.\n\nHe won the Botswana National DJ '98 mix show championship, then held down the famous after-work party Naked Lunch “Share Libations” from 2000 to 2004. In 2001 he became the first kwaito-exclusive DJ to play Central Park SummerStage, and in 2002–03 he played NJPAC and the African Film Festival.\n\nHis sets run from kwaito, Afro house and amapiano through zimdancehall, ndombolo and Afrobeat, across deep and soulful house, soul and R&B, hip-hop, reggae and old-school classics.\n\nOn July 6, 2015 he shared the bill with Les Nubians at ImageNation’s free outdoor film and music festival in Harlem’s Marcus Garvey Park.\n\nOn February 23, 2023 he DJ'd the South African cocktail reception at the Apollo Theater for ImageNation's Cocktails & Sol Cinema screening of Mbongeni Ngema's Asinamali, then played the official after party at Shrine World Music Venue in Harlem.",
     "base_location": "New York / New Jersey",
     "genres": [
       "Kwaito",
@@ -86,6 +86,21 @@
       "sort_order": 3
     },
     {
+      "year_label": "Jul 6, 2015",
+      "sort_year": 2015,
+      "title": "Marcus Garvey Park, with Les Nubians",
+      "detail": "Shared the bill with Les Nubians at the free I Am ImageNation outdoor film and music festival.",
+      "venue": "Marcus Garvey Park Amphitheater",
+      "city": "Harlem, New York",
+      "proof_level": "third_party",
+      "source_label": "Rolling Out report + video",
+      "source_url": "https://rollingout.com/2015/07/07/les-nubians-headlines-imagenation-outdoor-film-music-festival/",
+      "source2_label": "Routes event listing naming DJ Eddie Ed",
+      "source2_url": "https://routes-mag.com/?p=5397",
+      "featured": false,
+      "sort_order": 4
+    },
+    {
       "year_label": "2002–2003",
       "sort_year": 2002,
       "title": "NJPAC and the African Film Festival",
@@ -98,7 +113,7 @@
       "source2_label": null,
       "source2_url": null,
       "featured": false,
-      "sort_order": 4
+      "sort_order": 5
     },
     {
       "year_label": "2001",
@@ -113,7 +128,7 @@
       "source2_label": null,
       "source2_url": null,
       "featured": true,
-      "sort_order": 5
+      "sort_order": 6
     },
     {
       "year_label": "2000–2004",
@@ -128,7 +143,7 @@
       "source2_label": null,
       "source2_url": null,
       "featured": false,
-      "sort_order": 6
+      "sort_order": 7
     },
     {
       "year_label": "1998",
@@ -143,7 +158,7 @@
       "source2_label": null,
       "source2_url": null,
       "featured": true,
-      "sort_order": 7
+      "sort_order": 8
     }
   ],
   "links": [
