@@ -75,6 +75,15 @@ function render(data) {
     if (href) a.href = href;
   }
 
+  // booking email (set in the back office); the page keeps its built-in address if none is set
+  const mail = String(p.booking_email || '').trim();
+  if (/^[^@\s<>"']+@[^@\s<>"']+\.[^@\s<>"']+$/.test(mail)) {
+    for (const a of $$('[data-bind-mailto]')) {
+      a.href = `mailto:${mail}`;
+      a.textContent = `Email ${mail}`;
+    }
+  }
+
   // press photo (uploaded from the back office)
   const photo = p.hero_image_url && safeUrl(p.hero_image_url);
   $('.press-photo').hidden = !photo;
