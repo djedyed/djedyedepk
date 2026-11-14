@@ -1,0 +1,237 @@
+{
+  "generated_at": "2026-11-14T02:05:48Z",
+  "profile": {
+    "stage_name": "DJ Eddie Ed",
+    "aka": "djedyed",
+    "tagline": "The musical bridge between Southern Africa & the US.",
+    "short_bio": "DJ Eddie Ed (djedyed) is a New York–based DJ and music curator who has spent more than two decades connecting Southern African dance music with American crowds. A Botswana National DJ '98 mix show champion and an early champion of kwaito in the US, he has played Central Park SummerStage, NJPAC and, in 2023, the Apollo Theater in Harlem.",
+    "full_bio": "Eddie Ed grew up between Zimbabwe, Botswana and South Africa, and he brought those dancefloors with him to New York.\n\nHe won the Botswana National DJ '98 mix show championship, then held down the famous after-work party Naked Lunch “Share Libations” from 2000 to 2004. In 2001 he became the first kwaito-exclusive DJ to play Central Park SummerStage, and in 2002–03 he played NJPAC and the African Film Festival.\n\nHis sets run from kwaito, Afro house and amapiano through zimdancehall, ndombolo and Afrobeat, across deep and soulful house, soul and R&B, hip-hop, reggae and old-school classics.\n\nOn February 23, 2023 he DJ'd the South African cocktail reception at the Apollo Theater for ImageNation's Cocktails & Sol Cinema screening of Mbongeni Ngema's Asinamali, then played the official after party at Shrine World Music Venue in Harlem.",
+    "base_location": "New York / New Jersey",
+    "genres": [
+      "Kwaito",
+      "Afro House",
+      "Amapiano",
+      "Zimdancehall",
+      "Ndombolo",
+      "Afrobeat",
+      "Soukous",
+      "Deep & Soulful House",
+      "Soul & R&B",
+      "Hip-Hop",
+      "Reggae & Dancehall",
+      "Old School"
+    ],
+    "booking_url": "https://calendly.com/africangigs",
+    "booking_email": null,
+    "hero_image_url": null,
+    "rider_bring": [
+      "Laptop running Serato DJ Pro",
+      "Rane Four controller",
+      "Headphones and all cabling",
+      "On request: own Bose professional PA for rooms with no sound system"
+    ],
+    "rider_venue": [
+      "2 line outputs (XLR or 1/4\") to the house mixer",
+      "Booth monitor",
+      "Sturdy table at waist height, about 6 ft",
+      "2 grounded power outlets at the booth",
+      "1 wireless mic for MC duties",
+      "45 minutes' access before doors to set up"
+    ]
+  },
+  "highlights": [
+    {
+      "year_label": "Feb 23, 2023",
+      "sort_year": 2023,
+      "title": "Apollo Theater, Harlem",
+      "detail": "DJ for the South African cocktail reception at ImageNation’s Cocktails & Sol Cinema: Asinamali, Mbongeni Ngema’s film.",
+      "venue": "Apollo Theater",
+      "city": "Harlem, New York",
+      "proof_level": "third_party",
+      "source_label": "Apollo event listing",
+      "source_url": "https://apollotheater.org/event/imagenations-cocktails-and-sol-cinema-asinamali",
+      "source2_label": "Event flyer naming DJ Eddie Ed",
+      "source2_url": "https://www.instagram.com/p/CoLqXIMsp_Q/",
+      "featured": true,
+      "sort_order": 1
+    },
+    {
+      "year_label": "Feb 23, 2023",
+      "sort_year": 2023,
+      "title": "Official after party, Shrine World Music Venue",
+      "detail": "DJ for the Asinamali after party, with a special performance by Afro-Latino band Sauce Y.",
+      "venue": "Shrine World Music Venue",
+      "city": "Harlem, New York",
+      "proof_level": "artist_published",
+      "source_label": "Event flyer",
+      "source_url": "https://www.instagram.com/p/CoLqXIMsp_Q/",
+      "source2_label": null,
+      "source2_url": null,
+      "featured": false,
+      "sort_order": 2
+    },
+    {
+      "year_label": "2011–2023",
+      "sort_year": 2011,
+      "title": "33 sets logged publicly on Serato",
+      "detail": "Tracklists from 33 sets published to Serato between September 2011 and February 2023.",
+      "venue": null,
+      "city": null,
+      "proof_level": "third_party",
+      "source_label": "Serato playlists",
+      "source_url": "https://serato.com/playlists/djedyed",
+      "source2_label": null,
+      "source2_url": null,
+      "featured": false,
+      "sort_order": 3
+    },
+    {
+      "year_label": "2002–2003",
+      "sort_year": 2002,
+      "title": "NJPAC and the African Film Festival",
+      "detail": "Played the New Jersey Performing Arts Center and the African Film Festival.",
+      "venue": "NJPAC",
+      "city": "New Jersey / New York",
+      "proof_level": "artist_published",
+      "source_label": "Mixcloud artist bio",
+      "source_url": "https://www.mixcloud.com/djedyed/",
+      "source2_label": null,
+      "source2_url": null,
+      "featured": false,
+      "sort_order": 4
+    },
+    {
+      "year_label": "2001",
+      "sort_year": 2001,
+      "title": "First kwaito-exclusive DJ at Central Park SummerStage",
+      "detail": "Brought an all-kwaito set to one of New York’s biggest free outdoor stages.",
+      "venue": "SummerStage, Central Park",
+      "city": "New York",
+      "proof_level": "artist_published",
+      "source_label": "Mixcloud artist bio",
+      "source_url": "https://www.mixcloud.com/djedyed/",
+      "source2_label": null,
+      "source2_url": null,
+      "featured": true,
+      "sort_order": 5
+    },
+    {
+      "year_label": "2000–2004",
+      "sort_year": 2000,
+      "title": "Naked Lunch “Share Libations”",
+      "detail": "DJ of the famous after-work party for four years.",
+      "venue": "Naked Lunch",
+      "city": "New York",
+      "proof_level": "artist_published",
+      "source_label": "Mixcloud artist bio",
+      "source_url": "https://www.mixcloud.com/djedyed/",
+      "source2_label": null,
+      "source2_url": null,
+      "featured": false,
+      "sort_order": 6
+    },
+    {
+      "year_label": "1998",
+      "sort_year": 1998,
+      "title": "Botswana National DJ mix show champion",
+      "detail": "Won the Botswana National DJ '98 mix show championship.",
+      "venue": null,
+      "city": "Botswana",
+      "proof_level": "artist_published",
+      "source_label": "Mixcloud artist bio",
+      "source_url": "https://www.mixcloud.com/djedyed/",
+      "source2_label": null,
+      "source2_url": null,
+      "featured": true,
+      "sort_order": 7
+    }
+  ],
+  "links": [
+    {
+      "kind": "booking",
+      "label": "Book a call",
+      "url": "https://calendly.com/africangigs",
+      "note": "Calendly",
+      "sort_order": 1
+    },
+    {
+      "kind": "mix",
+      "label": "Africa Stand UP 17",
+      "url": "https://www.mixcloud.com/djedyed/africa-stand-up-17/",
+      "note": "Kwaito · Zimdancehall · Afrobeat · Ndombolo · Afro house",
+      "sort_order": 1
+    },
+    {
+      "kind": "mix",
+      "label": "DJ Eddie Ed KwaitoHouse Sampler 2004",
+      "url": "https://www.mixcloud.com/djedyed/dj-eddie-ed-kwaitohouse-sampler-2004/",
+      "note": "Kwaito-house · South African house",
+      "sort_order": 2
+    },
+    {
+      "kind": "mix",
+      "label": "Deep Underground House II",
+      "url": "https://www.mixcloud.com/djedyed/deep-underground-house-ii/",
+      "note": "Deep house · Jazz house",
+      "sort_order": 3
+    },
+    {
+      "kind": "mix",
+      "label": "SoulDeep",
+      "url": "https://www.mixcloud.com/djedyed/souldeep/",
+      "note": "Soul · R&B",
+      "sort_order": 4
+    },
+    {
+      "kind": "mix",
+      "label": "90s Related Relatives Anthems Pt I",
+      "url": "https://www.mixcloud.com/djedyed/90s-anthems-pt-i/",
+      "note": "Hip-hop · R&B · New jack swing",
+      "sort_order": 5
+    },
+    {
+      "kind": "mix",
+      "label": "Africaunited",
+      "url": "https://www.mixcloud.com/djedyed/africa-united/",
+      "note": "Soukous · Afrobeat · Kwaito-house · ZimHouse",
+      "sort_order": 6
+    },
+    {
+      "kind": "social",
+      "label": "Mixcloud",
+      "url": "https://www.mixcloud.com/djedyed/",
+      "note": "19 shows",
+      "sort_order": 1
+    },
+    {
+      "kind": "social",
+      "label": "Instagram",
+      "url": "https://www.instagram.com/djedyed/",
+      "note": "@djedyed",
+      "sort_order": 2
+    },
+    {
+      "kind": "social",
+      "label": "Serato playlists",
+      "url": "https://serato.com/playlists/djedyed",
+      "note": "33 sets",
+      "sort_order": 3
+    }
+  ],
+  "reviews": [
+    {
+      "quote": "Best music selection that kept the dancefloor packed.",
+      "author": "Jojo M., client",
+      "source_label": "Thumbtack (5.0 from 5 reviews)",
+      "source_url": "https://www.thumbtack.com/nj/plainfield/photo-booth-rentals/edm-pro/service/184781775662154872",
+      "sort_order": 1
+    },
+    {
+      "quote": "Top notch professional. You won’t be disappointed.",
+      "author": "Dan G., client",
+      "source_label": "Thumbtack (5.0 from 5 reviews)",
+      "source_url": "https://www.thumbtack.com/nj/plainfield/photo-booth-rentals/edm-pro/service/184781775662154872",
+      "sort_order": 2
+    }
+  ]
+}
