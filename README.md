@@ -47,3 +47,11 @@ Settings → Pages → Source: **Deploy from a branch** → Branch: `main` / roo
 ## Updating content
 
 Edit everything in the back office. After big edits, use **Publish → Download content.json** there and commit it here to refresh the backup copy.
+
+## Publishing changes
+
+This repo is pushed from Ed's Mac as **djedyed**, using the GitHub CLI (`gh`) login that git now uses for github.com.
+
+1. `gh auth status` should show **djedyed** as the active account. Use `gh auth switch` if another account is active.
+2. Commit, then `git push` (or click **Push origin** in GitHub Desktop).
+3. Check it landed: `git ls-remote https://github.com/djedyed/djedyedepk refs/heads/main` must print the same commit as `git rev-parse main`.
