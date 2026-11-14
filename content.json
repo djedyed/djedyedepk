@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T19:25:00Z",
+  "generated_at": "2026-11-14T19:31:00Z",
   "profile": {
     "stage_name": "DJ Eddie Ed",
     "aka": "djedyed",
@@ -230,6 +230,20 @@
       "url": "https://serato.com/playlists/djedyed",
       "note": "33 sets",
       "sort_order": 3
+    },
+    {
+      "kind": "social",
+      "label": "TikTok",
+      "url": "https://www.tiktok.com/@djedyed",
+      "note": "@djedyed",
+      "sort_order": 4
+    },
+    {
+      "kind": "social",
+      "label": "YouTube",
+      "url": "https://www.youtube.com/c/EddieEddjedyed",
+      "note": "Eddie Ed",
+      "sort_order": 5
     }
   ],
   "reviews": [
