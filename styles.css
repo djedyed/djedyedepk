@@ -134,28 +134,51 @@ h1 span { display: block; }
 .chips { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 8px; }
 .chips li { border: 1px solid var(--line); padding: 7px 12px; font-size: 14px; color: var(--soft); }
 
-/* ---------- highlights ---------- */
-.legend { list-style: none; padding: 0; margin: 0 0 32px; display: grid; gap: 10px; color: var(--muted); font-size: 14px; }
+/* ---------- highlights (laid out like page 3 of the EPK) ---------- */
+.legend { list-style: none; padding: 0; margin: -6px 0 24px; display: flex; flex-wrap: wrap; gap: 10px 28px; color: var(--muted); font-size: 14px; }
+.legend li { display: flex; align-items: center; }
+.legend li[hidden] { display: none; }
 .tag {
   display: inline-block; font: 500 11.5px/1 var(--mono); letter-spacing: 0.1em; text-transform: uppercase;
-  padding: 6px 8px; margin-right: 10px; vertical-align: 1px;
+  padding: 6px 8px; margin-right: 10px; vertical-align: 1px; white-space: nowrap;
 }
 .tag-third_party { background: var(--lime); color: #0A0A0A; }
-.tag-artist_published { border: 1.5px solid var(--ochre); color: var(--ochre); }
-.tag-artist_stated { border: 1.5px dashed #6A6A66; color: var(--muted); }
+.tag-artist_published { border: 1.5px solid var(--ochre); color: var(--ochre); padding: 4.5px 6.5px; }
+.tag-artist_stated { border: 1.5px dashed #6A6A66; color: var(--muted); padding: 4.5px 6.5px; }
 
-.timeline { list-style: none; padding: 0; margin: 0; border-left: 1px solid var(--line); }
-.timeline li { position: relative; padding: 0 0 34px 28px; }
-.timeline li::before {
-  content: ''; position: absolute; left: -6px; top: 6px; width: 11px; height: 11px; background: var(--bg); border: 2px solid var(--ochre);
+.hl-feature {
+  display: grid; grid-template-columns: minmax(0, 1fr) minmax(220px, 360px); gap: 28px; align-items: start;
+  border: 1.5px solid var(--lime); background: var(--panel); padding: clamp(20px, 3vw, 28px);
 }
-.timeline li.is-featured::before { background: var(--lime); border-color: var(--lime); }
-.timeline .year { font: 500 13px/1 var(--mono); letter-spacing: 0.1em; color: var(--lime); text-transform: uppercase; }
-.timeline h3 { margin: 8px 0 6px; font: 700 clamp(18px, 2.2vw, 22px)/1.3 var(--display); letter-spacing: -0.01em; }
-.timeline p { margin: 0 0 10px; color: var(--soft); max-width: 760px; }
-.timeline .where { font-size: 14px; color: var(--muted); }
-.timeline .src { font: 400 13px/1.7 var(--mono); }
-.timeline .src a { margin-right: 14px; }
+.hl-feature-copy { display: grid; gap: 12px; }
+.hl-feature-top { margin: 0; display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; }
+.hl-feature-top .tag { margin: 0; }
+.hl-kicker { font: 500 13px/1 var(--mono); letter-spacing: 0.12em; text-transform: uppercase; color: var(--lime); }
+.hl-feature h3 { margin: 0; font: 700 clamp(24px, 3.2vw, 34px)/1.15 var(--display); letter-spacing: -0.02em; text-wrap: balance; }
+.hl-feature-detail { margin: 0; color: var(--soft); font-size: clamp(15px, 1.6vw, 17px); line-height: 1.55; max-width: 620px; text-wrap: pretty; }
+.hl-sources { margin: 0; display: grid; gap: 4px; font: 400 13px/1.6 var(--mono); color: var(--muted); }
+.hl-feature-photo { margin: 0; display: grid; gap: 8px; }
+.hl-feature-photo img { width: 100%; height: auto; aspect-ratio: 520 / 290; object-fit: cover; display: block; }
+.hl-feature-photo figcaption { font: 400 11.5px/1.45 var(--mono); letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
+
+.hl-rows { list-style: none; padding: 0; margin: 22px 0 0; border-top: 1px solid var(--line); }
+.hl-row {
+  display: grid; grid-template-columns: 140px minmax(0, 1fr) 240px; gap: 20px; align-items: start;
+  padding: 16px 0; border-bottom: 1px solid var(--line);
+}
+.hl-date { font: 500 13px/1.4 var(--mono); letter-spacing: 0.08em; text-transform: uppercase; color: var(--lime); padding-top: 3px; }
+.hl-what h3 { margin: 0; font: 600 17px/1.35 var(--body); letter-spacing: 0; }
+.hl-what p { margin: 4px 0 0; font-size: 14px; color: var(--muted); }
+.hl-proof { display: flex; flex-direction: column; align-items: flex-start; gap: 6px; font: 400 13px/1.5 var(--mono); }
+.hl-proof .tag { margin: 0; }
+.hl-end { margin-top: 36px; }
+
+@media (max-width: 760px) {
+  .hl-feature { grid-template-columns: 1fr; }
+  .hl-feature-photo { order: -1; }
+  .hl-row { grid-template-columns: 1fr; gap: 8px; }
+  .hl-proof { flex-direction: row; flex-wrap: wrap; align-items: center; gap: 6px 14px; }
+}
 
 /* ---------- mixes ---------- */
 .mixes { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 480px), 1fr)); gap: 16px; }

@@ -44,21 +44,26 @@
       "year_label": "Feb 23, 2023",
       "sort_year": 2023,
       "title": "Apollo Theater, Harlem",
-      "detail": "DJ for the South African cocktail reception at ImageNation’s Cocktails & Sol Cinema: Asinamali, Mbongeni Ngema’s film.",
+      "subline": "Harlem · ImageNation’s Cocktails & Sol Cinema",
+      "detail": "DJ for the South African cocktail reception at ImageNation’s Cocktails & Sol Cinema: Asinamali, a screening of Mbongeni Ngema’s film in the Apollo’s 2022–23 season.",
       "venue": "Apollo Theater",
       "city": "Harlem, New York",
       "proof_level": "third_party",
-      "source_label": "Apollo event listing",
+      "source_label": "Event: apollotheater.org listing",
       "source_url": "https://apollotheater.org/event/imagenations-cocktails-and-sol-cinema-asinamali",
-      "source2_label": "Event flyer naming DJ Eddie Ed",
+      "source2_label": "DJ billing: official flyer on Instagram",
       "source2_url": "https://www.instagram.com/p/CoLqXIMsp_Q/",
       "featured": true,
-      "sort_order": 1
+      "sort_order": 1,
+      "image_url": "assets/highlights/apollo-marquee-edited.jpg",
+      "image_alt": "Photo of the Apollo Theater marquee, edited to show the Asinamali night with DJ Eddie Ed",
+      "image_caption": "Edited photo: marquee wording added"
     },
     {
       "year_label": "Feb 23, 2023",
       "sort_year": 2023,
       "title": "Official after party, Shrine World Music Venue",
+      "subline": "Harlem · with Afro-Latino band Sauce Y",
       "detail": "DJ for the Asinamali after party, with a special performance by Afro-Latino band Sauce Y.",
       "venue": "Shrine World Music Venue",
       "city": "Harlem, New York",
@@ -68,12 +73,16 @@
       "source2_label": null,
       "source2_url": null,
       "featured": false,
-      "sort_order": 2
+      "sort_order": 2,
+      "image_url": null,
+      "image_alt": null,
+      "image_caption": null
     },
     {
       "year_label": "2011–2023",
       "sort_year": 2011,
       "title": "33 sets logged publicly on Serato",
+      "subline": "Tracklists published Sept 2011 – Feb 2023",
       "detail": "Tracklists from 33 sets published to Serato between September 2011 and February 2023.",
       "venue": null,
       "city": null,
@@ -83,27 +92,35 @@
       "source2_label": null,
       "source2_url": null,
       "featured": false,
-      "sort_order": 3
+      "sort_order": 3,
+      "image_url": null,
+      "image_alt": null,
+      "image_caption": null
     },
     {
       "year_label": "Jul 6, 2015",
       "sort_year": 2015,
       "title": "Marcus Garvey Park, with Les Nubians",
+      "subline": "I Am ImageNation festival · Harlem amphitheater",
       "detail": "Shared the bill with Les Nubians at the free I Am ImageNation outdoor film and music festival.",
       "venue": "Marcus Garvey Park Amphitheater",
       "city": "Harlem, New York",
       "proof_level": "third_party",
-      "source_label": "Rolling Out report + video",
+      "source_label": "Rolling Out report",
       "source_url": "https://rollingout.com/2015/07/07/les-nubians-headlines-imagenation-outdoor-film-music-festival/",
       "source2_label": "Routes event listing naming DJ Eddie Ed",
       "source2_url": "https://routes-mag.com/?p=5397",
       "featured": false,
-      "sort_order": 4
+      "sort_order": 4,
+      "image_url": null,
+      "image_alt": null,
+      "image_caption": null
     },
     {
       "year_label": "2002–2003",
       "sort_year": 2002,
       "title": "NJPAC and the African Film Festival",
+      "subline": "New Jersey Performing Arts Center",
       "detail": "Played the New Jersey Performing Arts Center and the African Film Festival.",
       "venue": "NJPAC",
       "city": "New Jersey / New York",
@@ -113,12 +130,16 @@
       "source2_label": null,
       "source2_url": null,
       "featured": false,
-      "sort_order": 5
+      "sort_order": 5,
+      "image_url": null,
+      "image_alt": null,
+      "image_caption": null
     },
     {
       "year_label": "2001",
       "sort_year": 2001,
-      "title": "First kwaito-exclusive DJ at Central Park SummerStage",
+      "title": "First kwaito-exclusive DJ at SummerStage",
+      "subline": "Central Park, New York",
       "detail": "Brought an all-kwaito set to one of New York’s biggest free outdoor stages.",
       "venue": "SummerStage, Central Park",
       "city": "New York",
@@ -128,12 +149,16 @@
       "source2_label": null,
       "source2_url": null,
       "featured": true,
-      "sort_order": 6
+      "sort_order": 6,
+      "image_url": null,
+      "image_alt": null,
+      "image_caption": null
     },
     {
       "year_label": "2000–2004",
       "sort_year": 2000,
       "title": "Naked Lunch “Share Libations”",
+      "subline": "DJ of the famous after-work party, New York",
       "detail": "DJ of the famous after-work party for four years.",
       "venue": "Naked Lunch",
       "city": "New York",
@@ -143,12 +168,16 @@
       "source2_label": null,
       "source2_url": null,
       "featured": false,
-      "sort_order": 7
+      "sort_order": 7,
+      "image_url": null,
+      "image_alt": null,
+      "image_caption": null
     },
     {
       "year_label": "1998",
       "sort_year": 1998,
       "title": "Botswana National DJ mix show champion",
+      "subline": "Botswana National DJ '98",
       "detail": "Won the Botswana National DJ '98 mix show championship.",
       "venue": null,
       "city": "Botswana",
@@ -158,7 +187,10 @@
       "source2_label": null,
       "source2_url": null,
       "featured": true,
-      "sort_order": 8
+      "sort_order": 8,
+      "image_url": null,
+      "image_alt": null,
+      "image_caption": null
     }
   ],
   "links": [

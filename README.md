@@ -7,9 +7,12 @@ Live at **https://djedyed.github.io/djedyedepk/** once GitHub Pages is switched 
 ## What's on the page
 
 - Hero, featured highlight (Apollo Theater, Harlem, Feb 23, 2023) and bio
-- **Lifetime highlights with source tags.** Each one links to the record that backs it up:
-  - **Third-party record**: confirmed by an outside source (a venue listing or a platform such as Serato)
-  - **Artist-published**: from DJ Eddie Ed's own public profiles and flyers
+- **Lifetime highlights with source tags**, laid out like page 3 of the EPK:
+  - A featured card for the Apollo night, with an edited marquee photo, captioned as edited.
+  - Then one compact row per highlight: date, title, a short line, its tag and its source link.
+  - Each highlight links to the record that backs it up:
+    - **Third-party record**: confirmed by an outside source (a venue listing or a platform such as Serato)
+    - **Artist-published**: from DJ Eddie Ed's own public profiles and flyers
 - Mixcloud players for six featured mixes
 - Client reviews, a tech rider, and a booking section with a Calendly link, a booking email (djedyed@gmail.com), a booking phone (+1 347 377 2968) and an inquiry form
 

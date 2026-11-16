@@ -9,7 +9,7 @@ const $$ = (sel, root = document) => [...root.querySelectorAll(sel)];
 let supabase = null;
 async function getClient() {
   if (supabase) return supabase;
-  const { createClient } = await import('https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/+esm');
+  const { createClient } = await import('https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.118.0/+esm');
   supabase = createClient(SUPABASE_URL, SUPABASE_KEY, { auth: { persistSession: false } });
   return supabase;
 }
@@ -102,7 +102,7 @@ function render(data) {
   // genres
   $('[data-list="genres"]').replaceChildren(...(p.genres || []).map((g) => el('li', { text: g })));
 
-  // featured highlight (newest featured one)
+  // featured highlight (newest featured one): the strip under the hero and the big card in Highlights
   const highlights = [...(data.highlights || [])].sort((a, b) => (a.sort_order ?? 0) - (b.sort_order ?? 0));
   const featured = highlights.filter((h) => h.featured).sort((a, b) => b.sort_year - a.sort_year)[0];
   const fBox = $('.featured');
@@ -115,19 +115,11 @@ function render(data) {
     fBox.hidden = true;
   }
 
-  // timeline
-  $('[data-list="highlights"]').replaceChildren(
-    ...highlights.map((h) =>
-      el('li', { class: h.featured ? 'is-featured' : null },
-        el('span', { class: 'year', text: h.year_label }),
-        el('h3', { text: h.title }),
-        h.detail ? el('p', { text: h.detail }) : null,
-        h.venue || h.city ? el('p', { class: 'where', text: [h.venue, h.city].filter(Boolean).join(' · ') }) : null,
-        el('p', { class: 'src' },
-          el('span', { class: `tag tag-${h.proof_level}`, text: PROOF_LABEL[h.proof_level] || 'Source' }),
-          ...sourceLinks(h)),
-      )),
-  );
+  // Highlights, laid out like page 3 of the EPK: one featured card, then compact rows
+  const card = $('[data-hl-feature]');
+  card.hidden = !featured;
+  if (featured) card.replaceChildren(...featureCard(featured));
+  $('[data-list="highlights"]').replaceChildren(...highlights.filter((h) => h !== featured).map(highlightRow));
 
   $('.legend-stated').hidden = !highlights.some((h) => h.proof_level === 'artist_stated');
 
@@ -153,12 +145,46 @@ function render(data) {
   $('[data-list="social"]').replaceChildren(...social.map((l) => el('li', {}, link(l.label, l.url))));
 }
 
+// A label written as "Event: apollotheater.org listing" shows "Event:" as plain text and links the rest.
+function sourceItem(label, url) {
+  const m = /^([^:]{1,24}):\s+(.+)$/.exec(label);
+  if (!m) return url ? link(label, url) : document.createTextNode(label);
+  return el('span', {}, `${m[1]}: `, url ? link(m[2], url) : m[2]);
+}
+
 function sourceLinks(h) {
   const out = [];
-  if (h.source_label && h.source_url) out.push(link(h.source_label, h.source_url));
-  else if (h.source_label) out.push(document.createTextNode(h.source_label));
-  if (h.source2_label && h.source2_url) out.push(link(h.source2_label, h.source2_url));
+  if (h.source_label) out.push(sourceItem(h.source_label, h.source_url));
+  if (h.source2_label && h.source2_url) out.push(sourceItem(h.source2_label, h.source2_url));
   return out;
+}
+
+function proofTag(h) {
+  return el('span', { class: `tag tag-${h.proof_level}`, text: PROOF_LABEL[h.proof_level] || 'Source' });
+}
+
+function featureCard(h) {
+  const photo = h.image_url && safeUrl(h.image_url);
+  return [
+    el('div', { class: 'hl-feature-copy' },
+      el('p', { class: 'hl-feature-top' }, el('span', { class: 'hl-kicker', text: `Featured · ${h.year_label}` }), proofTag(h)),
+      el('h3', { id: 'hl-feature-title', text: h.title }),
+      h.detail ? el('p', { class: 'hl-feature-detail', text: h.detail }) : null,
+      el('p', { class: 'hl-sources' }, ...sourceLinks(h))),
+    photo
+      ? el('figure', { class: 'hl-feature-photo' },
+          el('img', { src: photo, alt: h.image_alt || h.title, loading: 'lazy', width: '520', height: '290' }),
+          h.image_caption ? el('figcaption', { text: h.image_caption }) : null)
+      : null,
+  ];
+}
+
+function highlightRow(h) {
+  const sub = h.subline || [h.venue, h.city].filter(Boolean).join(' · ') || h.detail;
+  return el('li', { class: 'hl-row' },
+    el('span', { class: 'hl-date', text: h.year_label }),
+    el('div', { class: 'hl-what' }, el('h3', { text: h.title }), sub ? el('p', { text: sub }) : null),
+    el('div', { class: 'hl-proof' }, proofTag(h), ...sourceLinks(h)));
 }
 
 function mixCard(m) {
